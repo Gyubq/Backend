@@ -1,0 +1,12 @@
+package org.scoula.dynamicweb.ex03.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+
+public class SampleDTO {
+    private int age;
+    private String name;
+}
